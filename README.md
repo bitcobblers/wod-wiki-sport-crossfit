@@ -35,12 +35,31 @@ corpus; notebook chunk ids are unchanged so app-side sync state survives.
 | `crossfit-games-2025` | collection | 10 |
 | `crossfit-games-2026` | collection | 20 |
 | `crossfit-girls` | collection | 18 |
-| `crossfit-heroes` | collection | 213 |
+| `crossfit-heroes-2005` | collection | 3 |
+| `crossfit-heroes-2006` | collection | 1 |
+| `crossfit-heroes-2007` | collection | 4 |
+| `crossfit-heroes-2008` | collection | 7 |
+| `crossfit-heroes-2009` | collection | 5 |
+| `crossfit-heroes-2010` | collection | 27 |
+| `crossfit-heroes-2011` | collection | 25 |
+| `crossfit-heroes-2012` | collection | 23 |
+| `crossfit-heroes-2013` | collection | 26 |
+| `crossfit-heroes-2014` | collection | 18 |
+| `crossfit-heroes-2015` | collection | 20 |
+| `crossfit-heroes-2016` | collection | 15 |
+| `crossfit-heroes-2017` | collection | 16 |
+| `crossfit-heroes-2018` | collection | 8 |
+| `crossfit-heroes-2020` | collection | 4 |
+| `crossfit-heroes-2021` | collection | 5 |
+| `crossfit-heroes-2022` | collection | 2 |
+| `crossfit-heroes-2023` | collection | 1 |
+| `crossfit-heroes-2026` | collection | 3 |
 | `crossfit-programming` | feed | 8 |
 
-> Note: the Games corpus was split from one `crossfit-games` notebook into
-> per-year notebooks. Note ids are path-derived, so this reset app-side sync
-> state for those notes once — existing installs re-import them as new.
+> Note: the Games and Heroes corpora were split from single notebooks
+> (`crossfit-games`, `crossfit-heroes`) into per-year notebooks. Note ids are
+> path-derived, so these splits reset app-side sync state for those notes once —
+> existing installs re-import them as new.
 
 ## Layout
 
